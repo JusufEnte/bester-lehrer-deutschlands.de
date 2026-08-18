@@ -1,0 +1,26 @@
+   h1 {
+        color: darkblue;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 400%;
+    }
+    body {
+        background-color: aqua
+    }
+    header .leave {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+    header .leave a { 
+        text-align: center;
+        background-color: aquamarine;
+        color:rgb(0, 0, 0);
+        text-decoration: none;
+        padding: 10px;
+        border: 2px dashed rgba(0, 0, 0, 0.436);
+    }
+
+    header a:hover {
+        border: 2px solid rgba(0, 0, 0, 0.436);
+    }
+  
